@@ -9,6 +9,7 @@ class Veiculo():
 
     def __del__(self):
         print("O objeto foi removido da memória")
+    
     def abastecer(self, qtd_combustivel):
         self.qtd_combustivel += qtd_combustivel
 
